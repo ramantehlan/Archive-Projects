@@ -1,0 +1,44 @@
+html{margin:0px;
+	font-size:14px;
+	font-family:passage;
+	background-color:#09456a;
+	color:#44728e;
+}
+
+body{margin:0px;
+}
+
+.logo{width:150px;
+	  height:150px;
+	  margin:0px auto;
+	  margin-top:30px;
+}
+
+.logo img{width:150px;}
+
+
+.message{width:500px;
+		 margin:0px auto;
+		 margin-top:30px;
+		 background-color:white;
+		 padding:30px;
+		 border-radius:5px;
+
+}
+
+.message_title{font-size:24px;
+				height:40px;
+				line-height:40px;
+				font-weight:bold;
+				text-align:center;
+}
+
+.message_content{margin-top:20px;
+				font-size:15px;
+				line-height:20px;
+}
+
+@font-face{
+    font-family:passage;
+    src:url("Roboto-Regular.ttf");
+}

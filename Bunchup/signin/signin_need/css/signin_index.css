@@ -1,0 +1,309 @@
+.body{padding-top:60px;}
+.right_row{width:230px;
+           height:500px;
+           float:right;
+           padding:5px;
+}
+
+.left_row{width:720px;
+          height:500px;
+          float:left;
+           padding:5px;
+}
+
+
+
+
+.but{
+                 width:80px;
+                 height:24px;
+                 margin-top:2.5px;
+                 float:right;
+                 margin-right:5px;
+        border-radius:2px;
+        background-color:rgb(190,190,190);
+        background:linear-gradient(rgb(240,240,250) , rgb(210,210,210));
+        border:1px solid rgb(190,190,190);
+        color:rgb(90,90,90);
+        outline:none;
+        cursor:pointer;
+}
+
+.but:hover{
+                 width:80px;
+                 height:24px;
+                 margin-top:2.5px;
+                 float:right;
+                 margin-right:5px;
+        border-radius:2px;
+        background-color:rgb(190,190,190);
+        background:linear-gradient(rgb(230,230,230) , rgb(190,190,190));
+        border:1px solid rgb(190,190,190);
+        color:rgb(90,90,90);
+        outline:none;
+        cursor:pointer;
+}
+
+
+.but:active{
+                 width:80px;
+                 height:24px;
+                 margin-top:2.5px;
+                 float:right;
+                 margin-right:5px;
+        border-radius:2px;
+        background-color:rgb(190,190,190);
+        background:linear-gradient(rgb(210,210,210) , rgb(190,190,190));
+        border:1px solid rgb(190,190,190);
+        color:rgb(90,90,90);
+        outline:none;
+        cursor:pointer;
+}
+
+.question{float:left;
+          position:absolute;
+          margin-top:-20px;
+          z-index:200;
+          width:20px;
+          margin-left:-2px;
+          height:20px;
+          background-image:url('../../../need/images/small/question-icons2.png');
+          background-size:18px 18px;
+          background-position:50% 50%;
+          background-repeat:no-repeat;
+}
+
+
+
+.message_of_question{width:200px;
+                     background-color:white;
+                      background-image:url('../../../need/images/small/question-icons2.png');
+          background-size:18px 18px;
+          background-repeat:no-repeat;
+          background-position:1px 1px; 
+          padding:5px;
+          visibility:hidden;
+          font-size:10px;
+          color:rgb(130,130,130);
+              border-radius:5px;
+              box-shadow:0px 0px 6px rgb(0,80,140);
+              padding:10px;
+              padding-top:22px;
+}
+
+.question:hover > .message_of_question{visibility:visible;}
+
+
+/***************************** 
+this is right side _body 
+******************************/
+
+.user_information_board_index{width:100%;
+                              float:left;
+                              border-radius:3px;
+                              overflow:hidden;
+                              background-color:white;
+                              
+                             
+}
+
+.head_of_uib{padding:5px;
+             border-radius:3px 3px 0px 0px;
+             background-color:rgb(190,200,255);
+             height:50px;
+             border-bottom:1px solid rgb(170,180,235);
+}
+
+.image_of_user{width:50px;
+               height:50px;
+               overflow:hidden;
+               float:left;
+               border-radius:3px;
+}
+
+.img_of_user_in_uibi{height:50px;
+                     border-radius:3px;
+}
+
+.name_of_user{margin-left:5px;
+	          float:left;
+              width:165px;
+              font-size:13px;
+              color:rgb(70,70,40);
+              overflow:hidden;
+              white-space:nowrap;
+              text-overflow:ellipsis;
+              text-transform:capitalize;
+
+}
+
+.body_of_uib{padding:5px;
+                padding-top:0.5px;
+            background-color:white;
+                        border-radius:0px 0px 3px 3px;
+}
+
+.option_of_uib_line{height:25px;
+                    width:100%;
+                   margin-top:5px;
+                   border-radius:2px;
+                   font-size:11px;
+                   color:rgb(100,100,100);
+}
+
+.main_of_line_in_uib{width:35%;
+                     height:21px;
+                    float:left;
+                    text-align:center;
+                    padding-top:4px;
+                     background-color:rgb(230,220,250);
+                     border-radius:2px 0px 0px 2px;
+
+}
+.value_of_line_of_uib{width:65%;
+                    height:21px;
+                    text-align:center;
+                     border-radius:0px 2px 2px 0px;
+                       overflow:hidden;
+                       white-space:nowrap;
+                       text-overflow:ellipsis;
+                   background-color:rgb(240,240,250);
+                   padding-top:4px;
+                     float:left;
+
+}
+
+.body_of_uib a{text-decoration:none;}
+
+.option_of_uib_line:hover > .main_of_line_in_uib{background-color:rgb(220,200,230);}
+.option_of_uib_line:hover > .value_of_line_of_uib{background-color:rgb(230,230,250);}
+
+
+/***********************************88
+this is left site bodt
+******************************/
+
+.status_update_box{width:350px;
+                   border-radius:5px;
+                   float:left;
+}
+
+.head_of_update_box{padding:5px;
+             border-radius:3px 3px 0px 0px;
+             background-color:rgb(20, 90, 140);
+             height:19px;
+             text-align:center;
+             font-size:14px;
+             color:rgb(255,255,255);
+             border-bottom:1px solid rgb(100,140,205);
+}
+
+.body_of_update_box{
+                     border-radius:0px 0px 3px 3px;
+                     background-color:white;
+}
+
+.body_of_update_box textarea{width:344px;
+                             height:26px;
+                             max-height:100px;
+                             padding-top:5px;
+                             border-radius:2px;
+                             border:1px solid rgb(255,255,255);
+                             outline:none;
+                             border-radius:0px 0px 3px 3px;
+                             resize:none;
+                             overflow-y:auto;
+}
+
+
+
+.bottom_bar_of_update{height:30px;
+                    background-color:rgb(230,230,230);
+                    display:none;
+                    border-radius:0px 0px 3px 3px;
+                    border-top:1px solid rgb(210,210,210);
+}
+
+.upload_php{float:left;}
+
+
+/**************************88
+above is status page
+bellow is confession page
+********************************/
+
+.confession_update_box{float:left;
+                       width:350px;
+                       margin-left:20px;
+                       background-color:white;
+                       border-radius:5px;
+                       z-index:19;
+}
+
+.confisstion_write{width:244px;
+                             height:26px;
+                             max-height:100px;
+                             padding-top:5px;
+                             border-radius:2px;
+                             border:1px solid rgb(255,255,255);
+                             outline:none;
+                             border-radius:0px 0px 3px 3px;
+                             resize:none;
+                              z-index:19;
+                             overflow-y:auto;}
+
+.bottom_bar_of_confess{height:30px;
+                    background-color:rgb(230,230,230);
+                    display:none;
+                    border-radius:0px 0px 3px 3px;
+                    border-top:1px solid rgb(210,210,210);}
+
+/*********************************
+this is e-bio
+*********************************/
+
+.e-bio{width:100%;
+       margin-top:20px;
+       border-radius:5px;
+       background-color:white;
+       float:left;
+}
+
+
+.bio_write{width:714px;
+                             height:26px;
+                             max-height:100px;
+                             padding-top:5px;
+                             border-radius:2px;
+                             border:1px solid rgb(255,255,255);
+                             outline:none;
+                             border-radius:0px 0px 3px 3px;
+                             resize:none;
+                              z-index:19;
+                             overflow-y:auto;}
+
+.bottom_bar_of_bio{height:30px;
+                    background-color:rgb(230,230,230);
+                   display:none;
+                    border-radius:0px 0px 3px 3px;
+                    border-top:1px solid rgb(210,210,210);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

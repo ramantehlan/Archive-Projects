@@ -1,0 +1,376 @@
+/*****************************************************************
+All the coy right of codes are with bunchup.inc 
+Copying any code or structure will be treated as voilation of rules 
+these codes are property of bunchup.inc and in no condition you can copy them
+
+
+
+*************************************************************************/
+html{
+  background:linear-gradient(rgb(20,160,210) , rgb(0,90,130));
+  background-attachment:fixed;
+
+}
+body{width:100%;
+      margin:0px;
+      padding:0px;
+      margin:0px;
+      height:100%;
+      position:absolute;
+}
+
+
+/********************************8
+      this is for the top
+************************/
+.top{width:100%;
+     height:40px;
+     background-color:rgb(0,50,90);
+     border-bottom:1px solid rgb(0,30,60);
+}
+
+.logo{width:110px;
+     margin-top:10px;
+     float:left;
+
+}
+
+.body_index{width:980px;
+      padding-top:20px;
+      margin:0px auto;
+}
+
+.middle_top{width:1000px;
+            height:40px;
+             background-color:rgb(0,50,90);
+             border-bottom:1px solid rgb(0,30,60);
+            margin:0px auto;
+            color:white;
+}
+
+.language_button{width:100px;
+                 float:right;
+                 height:25px;
+                 margin-right:20px;
+                 margin-top:7.5px;  
+                border-radius:2px;
+                background-color:rgb(0,20,50);
+                background:linear-gradient(rgb(0,100,140) , rgb(0,80,120));
+                border:1px solid rgb(0,30,80);
+                text-align:center;
+                cursor:pointer;
+                outline:none;
+                color:white;
+                font-size:11px;
+}
+
+.language_button:hover{width:100px;
+                 float:right;
+                 height:25px;
+                 margin-right:20px;
+                 margin-top:7.5px;  
+                border-radius:2px;
+                background-color:rgb(0,20,50);
+                background:linear-gradient(rgb(0,70,130) , rgb(0,60,100));
+                border:1px solid rgb(0,30,80);
+                text-align:center;
+                cursor:pointer;
+                color:white;
+                font-size:11px;
+}
+
+.language_button:active{width:100px;
+                 float:right;
+                 height:25px;
+                 margin-right:20px;
+                 margin-top:7.5px;  
+                border-radius:2px;
+                background-color:rgb(0,20,50);
+                background:linear-gradient(rgb(0,60,100) , rgb(0,40,80));
+                border:1px solid rgb(0,30,80);
+                text-align:center;
+                cursor:pointer;
+                color:white;
+                font-size:11px;
+}
+
+/************************************88 
+this is body content down 
+**************************************/
+
+.body{width:980px;
+      margin:0px auto;
+      height:100%;
+      margin-top:20px;
+      padding-left:10px;
+      padding-right:10px;
+}
+
+
+.box{ border-radius:3px;
+        background-color:white;
+    }
+
+
+
+/************************************
+      this is language box
+**********************************/
+.language_box_pop{width:500px;
+                 height:400px;
+                 border-radius:4px;
+                 box-shadow:0px 0px 10px 1px rgb(00,00,00);
+                 position:absolute;
+                 top:50%;
+                 left:50%;
+                 margin-top:-200px;
+                 margin-left:-250px;
+                 background:white;
+                 z-index:2;
+                 display:none;
+}
+
+.black{width:100%;
+    height:100%;
+    position:fixed;
+    background:rgba(0,0,0,0.5);
+    z-index:1;
+    display:none;
+}
+
+.top_of_lan_box{width:100%;
+                height:30px;
+                background-color:rgb(130,130,130);
+                background:linear-gradient(rgb(90,120,150) , rgb(70,100,130));
+                border-bottom:1px solid rgb(50,90,110);
+                border-radius:3px 3px 0px 0px;
+                text-align:center;
+                padding-top:10px;
+                color:rgb(255,255,255);
+                font-size:15px;
+}
+.close_language_but{float:left;
+     position:absolute;
+                    width:17px;
+                    height:17px;
+                    background:rgb(100,190,255);
+                    background:linear-gradient(rgb(110,140,180) , rgb(60,70,90) );
+                    margin-left:5px;
+                    margin-top:-23px;
+                    border-radius:50px;
+                    background-repeat:no-repeat;
+
+                    background-position:50% 00%;
+}
+
+.close_language_but:hover{float:left;
+                    position:absolute;
+                    width:17px;
+                    height:17px;
+                    background:rgb(110,140,180);
+                    background-image:url('../images/small/cross.png');
+                    box-shadow:inset 0px 0px 3px 1px rgb(60,70,90);
+                   margin-left:5px;
+                    margin-top:-23px;
+                    background-size:15px 15px;
+                    border-radius:50px;
+                    background-repeat:no-repeat;
+                    background-position:50% 00%;
+                    cursor:pointer;
+}
+                     
+/******************************88
+ this is for message
+*******************************/
+
+.message{float:left;
+         width:40%;
+         margin-left:5%;
+         background-color:white;
+         background:rgba(0,0,0,0.1);
+         border-radius:3px;
+         color:white;
+}
+
+.body_message{padding:10px;}
+
+.body_message h2{margin-top:5px;                
+}
+
+.body_message p{margin-left:40px;
+                margin-top:10px;
+}
+
+.body_message_more{padding:10px;
+                  
+}
+
+.body_message_more img{height:40px;
+                       float:left;
+                         margin-bottom:10px;
+                         margin-top:-5px;
+                         margin-left:10px;
+                         opacity:0.7;
+}
+
+
+
+/*********************************
+  bottom of index page 
+**************************/
+.bottom{width:100%;
+        float:left;
+        margin-top:40px;
+        margin-bottom:40px;
+}
+
+.detail{color:white;
+        font-size:10px;
+        float:left;
+        height:20px;
+        background-color:black;
+        background:rgba(0,0,0,0.08);
+        padding:2px;
+        padding-left:5px;
+        padding-right:5px;
+        border-radius:3px;
+}
+
+.detail a{color:white;
+          text-decoration:none;
+          margin-left:10px;
+}
+
+.detail a:hover{color:white;
+          text-decoration:underline;
+          margin-left:10px;
+}
+
+/***********************************************
+this is to make design of sign in  and sign up
+**************************************/
+
+.signin{float:left;
+        width:25%;
+        margin-left:5%;
+}
+
+
+.signup{float:left;
+        width:25%;    
+}
+
+.sign_body{padding:10px;    
+}
+
+
+
+
+.check{float:left;}
+
+.keep_sign_in{
+             padding-top:10px;
+             font-size:11px;
+             color:rgb(140,140,140);
+}
+
+
+
+.top_of_sign_up{width:100%;
+              border-radius:2px 2px 0px 0px;
+              height:30px;
+              font-size:15px;
+              padding-top:10px;
+              background-color:rgb(20,90,140);
+              border-bottom:1px solid rgb(0,60,120);
+              text-align:center;
+              color:white;
+              overflow:hidden;
+}
+
+.hidden_textarea{resize:none;
+                border:0px;
+                width:96%;
+                outline:none;
+                overflow:auto;
+                margin-top:10px;
+                  background-color:rgb(210,70,0);
+                  color:white;
+                  font-size:10px;
+                  padding:5px;
+                  border-radius:2px;
+                   font: 12px/18px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+
+
+.question_pin{
+            width:7%;
+            text-align:center;
+            height:20px;float:right;
+            background-position:50% 50%;
+            margin-top:17px;
+            background-repeat:no-repeat;
+            background-image:url('../images/small/question-icons2.png');
+}
+
+.message_of_pin{width:200px;
+              position:absolute;
+              margin-left:-1px;
+              background:white;
+              z-index:200;
+              font-size:10px;
+              border-radius:5px;
+              box-shadow:0px 0px 6px rgb(0,80,140);
+               background-image:url('../images/small/question-icons2.png');
+                background-repeat:no-repeat;
+                margin-top:1px;
+                padding:10px;
+                visibility:hidden;
+                padding-top:22px;
+}
+.question_pin:hover .message_of_pin{visibility:visible;
+
+}
+
+.forget_password{float:right;
+                text-decoration:none;
+                color:rgb(140,190,210);
+}
+
+.forget_password:hover{color:rgb(60,120,160);
+                      
+}
+
+
+
+
+/******************************************
+this below code is for the forgot password page hahahah
+
+**************************************/
+
+.forgot_box{width:580px;
+            height:180px;
+            background-color:white;
+            border-radius:3px;
+            padding:10px;
+            position:fixed;
+            left:50%;
+            top:50%;
+            margin-left:-300px;
+            margin-top:-200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

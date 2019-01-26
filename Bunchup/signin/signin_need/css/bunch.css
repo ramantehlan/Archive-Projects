@@ -1,0 +1,152 @@
+/*
+below is comman code for the left friend box and right follow box
+*/
+
+
+.left_box_of_friend_box_and_chat_Box{float:left;
+	                                 width:980px;
+}
+
+.left_side_bunch_line{float:left;
+                      width:250px;
+                      height:100%;
+                      position:fixed;
+                      border-radius:3px;
+}
+
+
+
+.heading_of_left_side_bunch_line{height:24px;
+                                 background-color:rgb(20,40,80);
+                                 background-color:black;
+                                 border-radius:3px 3px 0px 0px;
+                                 border-bottom:1px solid rgb(70,140,200);
+                                 text-align:center;
+                                 padding-top:6px;
+                                 color:white;
+                                 font-size:14px;
+
+}
+
+.body_of_left_side_bunchline_box{height:400px;
+                                   background-color:white;
+                                   background-color:rgba(180,180,235,0.75); 
+                                   overflow:hidden;
+                                   overflow-y:auto;
+                                   padding:5px;
+                                   padding-bottom:5px;
+                                    padding-top:0px;
+}
+
+.bottom_of_friend_and_follower_row{height:29px;
+	                               border-top:1px solid rgb(140,140,140);
+                                    border-radius:0px 0px 3px 3px;
+                                    background-color:rgb(220,220,220);
+}
+
+
+.box_of_friend_or_following_in_list{background-color:white;
+                                    height:40px;
+
+                                    margin-top:5px;
+}
+
+.img____of_friend_box img{width:100%;
+	                      min-height:100%;
+}
+ 
+.img____of_friend_box{float:left;
+                      width:40px;
+                      height:40px;
+                      overflow:hidden;
+}
+
+.right_side_of_friend_box__info{float:left;
+	                            height:100%;
+}
+
+.name_of_friend_box_line{height:20px;
+                          font-size:13px;
+                          overflow:hidden;
+                          white-space:nowrap;
+                          text-overflow:ellipsis;
+                          margin-top:9px;
+                          text-transform:capitalize;
+                          padding-left:10px;
+
+}
+
+.name_of_friend_box_line a{text-decoration:none;
+                        color:black;
+}
+
+/*
+
+ below is the code only for chat
+*/
+
+
+.box_of_chat_div_box_right{float:right;
+                            width:730px;
+                            padding-bottom:60px;
+}
+
+.chat_box_of_bunch{width:200px;
+                   height:300px;
+                   margin-top:10px;
+                   margin-left:26px;
+                   border-radius:3px;
+                   float:left;
+
+                      /*box-shadow:0px 0px 3px rgb(0,0,0);*/
+}
+
+.heading_of_chat_box{height:24px;
+                     font-size:11px;
+                     border-radius:3px 3px 0px 0px;
+                     background-color:rgb(20,40,80);
+                     border-bottom:1px solid rgb(0,0,0);
+                     color:white;
+                     text-align:center;
+                     font-size:12px;
+                     text-transform:capitalize;
+                     padding-top:5px;
+                     text-shadow:1px 1px 1px rgb(0,0,0);
+}
+.body_of_chat_box_msg{height:220px;
+                    background-color:white;
+}
+.bottom_of_chat_box_msg_to_send{height:49px;
+                                background-color:rgb(230,230,230);
+                                border-top:1px solid rgb(190,190,190);
+                                border-radius:0px 0px 3px 3px;
+}
+
+.textarea_of_chat{float:left;
+                    width:150px;
+                    resize:none;
+                    height:45px;
+                    font-family:arial;
+                    outline:none;
+                    border:0px;
+                    border-right:1px solid rgb(190,190,190);
+                    border-radius:0px 0px 0px 3px;
+}
+
+.button_of_msg_post{float:left;
+                    height:19px;
+                    font-size:11px;
+                    text-align:center;
+                    width:40px;
+                    margin-left:2.8px;
+                    margin-top:3px;
+                    background-color:blue;
+                     background:linear-gradient(rgb(130,150,200) , rgb(80,110,180));
+                     color:rgb(250,250,250);
+                     border-radius:2px;
+                     padding-top:1px;
+                     cursor:pointer;
+              }
+
+
+

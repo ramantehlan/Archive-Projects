@@ -1,0 +1,48 @@
+
+
+ErrorDocument 100 /base/error/error_100.php
+ErrorDocument 101 /base/error/error_101.php
+ErrorDocument 200 /base/error/error_200.php
+ErrorDocument 201 /base/error/error_201.php
+ErrorDocument 202 /base/error/error_202.php
+ErrorDocument 203 /base/error/error_203.php
+ErrorDocument 204 /base/error/error_204.php
+ErrorDocument 205 /base/error/error_205.php
+ErrorDocument 206 /base/error/error_206.php
+ErrorDocument 300 /base/error/error_300.php
+ErrorDocument 301 /base/error/error_301.php
+ErrorDocument 302 /base/error/error_302.php
+ErrorDocument 303 /base/error/error_303.php
+ErrorDocument 304 /base/error/error_304.php
+ErrorDocument 305 /base/error/error_305.php
+ErrorDocument 307 /base/error/error_307.php
+ErrorDocument 400 /base/error/error_400.php
+ErrorDocument 401 /base/error/error_401.php
+ErrorDocument 402 /base/error/error_402.php
+ErrorDocument 403 /base/error/error_403.php
+ErrorDocument 404 /signin/search_of_user/search.php
+ErrorDocument 405 /base/error/error_405.php
+ErrorDocument 406 /base/error/error_406.php
+ErrorDocument 407 /base/error/error_407.php
+ErrorDocument 408 /base/error/error_408.php
+ErrorDocument 409 /base/error/error_409.php
+ErrorDocument 410 /base/error/error_410.php
+ErrorDocument 411 /base/error/error_411.php
+ErrorDocument 412 /base/error/error_412.php
+ErrorDocument 413 /base/error/error_413.php
+ErrorDocument 414 /base/error/error_414.php
+ErrorDocument 415 /base/error/error_415.php
+ErrorDocument 416 /base/error/error_416.php
+ErrorDocument 417 /base/error/error_417.php
+ErrorDocument 422 /base/error/error_422.php
+ErrorDocument 423 /base/error/error_423.php
+ErrorDocument 424 /base/error/error_424.php
+ErrorDocument 426 /base/error/error_426.php
+ErrorDocument 500 /base/error/error_500.php
+ErrorDocument 501 /base/error/error_501.php
+ErrorDocument 502 /base/error/error_502.php
+ErrorDocument 503 /base/error/error_503.php
+ErrorDocument 504 /base/error/error_504.php
+ErrorDocument 505 /base/error/error_505.php
+
+

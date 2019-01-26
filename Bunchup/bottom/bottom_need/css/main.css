@@ -1,0 +1,335 @@
+html{
+	background-color:rgb(150,200,245);
+	background-attachment:fixed;
+
+}
+
+#top{width:100%;
+     height:40px;
+     background-color:rgb(40,70,130);
+     position:fixed;
+     z-index:2000000000000;
+
+}
+
+.body{margin:0px auto;
+       width:980px;
+     padding-top:60px;
+    
+
+}
+
+.left_side_bar{float:left;
+               width:200px;
+               margin-left:10px;
+               background-color:rgb(255,255,255);
+               border-radius:3px;
+               position:fixed;
+}
+
+.right_side_bar{float:right;
+               width:720px;
+               margin-right:10px;
+               padding:10px;
+               padding-bottom:20px;
+               background-color:white;
+               margin-bottom:50px;
+               border-radius:3px;
+
+ }
+
+.img_of_company{width:100%;
+                height:40px;
+                background-color:rgb(80,150,220);
+                border-bottom:1px solid rgb(70,140,210);
+                border-radius:3px 3px 0px 0px;
+                text-align:center;
+}
+
+.img_of_company img{height:20px;
+                    margin-top:10px;
+}
+
+.body_of_left_side_help{padding:5px;
+                       padding-top:0px;
+}
+
+.body_of_left_side_help a{text-decoration:none;color:black;}
+
+.selected_option_of_left_side_help_button{
+	                           height:19px;
+	                           padding-top:1px;
+	                           cursor:pointer;
+	                           color:black;
+	                           margin-top:5px;
+	                           background-color:rgb(170,190,255);
+	                           padding-left: 62px;
+                          background-repeat: no-repeat;
+                           background-position: 42px 2px;
+                        background-size: 15px 15px;
+
+}
+
+.option_of_left_side_help_button{
+	                           height:19px;
+	                           padding-top:1px;
+	                           cursor:pointer;
+	                           color:rgb(0,140,170);
+	                           margin-top:5px;
+	                           background-color:rgb(255,255,255);
+	                            padding-left: 62px;
+                              background-repeat: no-repeat;
+                           background-position: 42px 2px;
+                        background-size: 15px 15px;
+
+}
+
+.option_of_left_side_help_button:hover{
+	                           background-color:rgb(170,190,255);
+                               color:black;
+	                       }
+
+#about_img{background-image:url("../images/left/home.png");}
+
+#services_img{background-image:url("../images/left/leaf.png");}
+
+#feedback_img{background-image:url("../images/left/files.png");}
+
+#credit_img{background-image:url("../images/left/members.png");}
+
+#job_img{background-image:url("../images/left/jobs.png");}
+
+#contactus_img{background-image:url("../images/left/phone.png");}
+
+#security_img{background-image:url("../images/left/locked.png");}
+
+#termcondition_img{background-image:url("../images/left/target.png");}
+
+#privaciypolicy_img{background-image:url("../images/left/add-page.png");}
+
+
+
+
+
+
+
+/*********************************************************
+this css is for about page or it may be for comman also
+******************************************************/
+
+h1{text-align:Center;
+      color:rgb(200,200,230);
+      text-shadow:1px 1px 1px rgb(210,210,230);
+
+}
+
+h2{margin-top:5px;
+    margin-left:3px;
+    font-size:20px;
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+p{margin-left:20px;
+ font-size:13px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+h4{margin-top:0px;
+    margin-bottom:5px;
+     margin-left:3px;
+
+}
+li{margin-top:3px;}
+
+.img_for_slide{height:16px;
+                width:16px;
+                margin-bottom:-4px;
+                margin-left:5px;
+
+
+}
+.img_for_slide:hover{ background-color:rgb(245,245,250);
+                box-shadow:0px 0px 3px rgb(220,220,220);
+                border-radius:2px;
+                cursor:pointer;}
+
+.hide_p{display:none;
+        background-color:rgb(200,200,230);
+         padding:10px;
+        color:white;
+ }
+
+
+
+
+.Box_for_team_m{padding:10px;
+                height:200px;
+                width:28%;
+                margin-left:2%;
+                background-color:rgb(230,230,240);
+                color:rgb(130,130,130);
+                float:left;
+                margin-top:20px;
+                border-radius:5px;
+}
+.Box_for_team_m:hover{border-radius:10px;
+                        /* box-shadow:0px 0px 4px 0px rgb(170,170,170); */
+}
+.left_box_of_team_for_img{float:left;
+                          height:80%;
+                          width:80%;
+                          margin-left:10%;
+                          margin-bottom:4px;
+
+                          overflow:hidden;
+                           
+}
+
+
+.Box_for_team_m:hover > .left_box_of_team_for_img{border-radius:5px;}
+
+.Box_for_team_m:hover > .left_box_of_team_for_img > img{opacity:1;width:100%;min-height:100%;}
+
+.left_box_of_team_for_img img{width:120%;
+                              min-height:100%;
+                              border-radius:0px;
+                              opacity:0.85;
+                              transition:width 1s;                             
+                              -webkit-transition:width 1s;                             
+}
+
+
+#ceo{margin-top:-15px;  
+}
+
+.name_of_member{text-align:center;
+                font-size:15px;
+                font-weight:bold;
+                color:rgb(70,70,70);
+                text-transform:capitalize;
+                padding-top:10px;
+                margin-bottom:4px;
+
+}
+
+.work_of_member{text-align:center;
+               font-size:11px;
+ }
+
+
+
+
+.form_of_contact_us_to_fill_contact{background-color:rgb(150,200,245);
+                                    color:rgb(130,130,130);
+                                    width:50%;
+                                    margin-left:25%;
+                                    padding:10px;
+                                    padding-top:0px;
+                                    margin-top:20px;
+                                border-radius:5px;
+              }
+
+
+
+.input_of_form_to_contect{width:100%;
+                          height:30px;
+                          margin-top:10px;
+                          border-radius:3px;
+                          border:1px solid transparent;
+                          outline:none;
+                          resize:none;
+
+                        transition:border 0.3s;
+                        -webkit-transition:border 0.3s;
+                        -moz-transition:border 0.3s;
+}
+
+.input_of_form_to_contect:hover{border:1px solid rgb(130,180,220);}
+
+.input_of_form_to_contect:focus{border:1px solid rgb(130,180,220);
+                              box-shadow:0px 0px 5px rgb(120,170,190);
+}
+
+.submit_input_of_form_to_contect{width:100%;
+                          height:30px;
+                          margin-top:10px;
+                          border-radius:3px;
+                          border:1px solid rgb(80,110,170);
+                          background-color:rgb(120,160,220);
+                          background:linear-gradient(rgb(120,160,215) , rgb(90,120,180));
+                          color:white;
+                          font-size:14px;
+                          outline:none;
+                          cursor:pointer;
+                          resize:none;
+                        }
+
+
+.submit_input_of_form_to_contect:hover{
+                          border:1px solid rgb(50,90,170);
+                          background-color:rgb(80,130,190);
+
+                          background:linear-gradient(rgb(120,150,205) , rgb(70,100,180));
+                        
+                        }
+.submit_input_of_form_to_contect:active{
+                          border:1px solid rgb(50,90,170);
+                          background-color:rgb(70,120,180);
+
+                          background:linear-gradient(rgb(100,140,195) , rgb(50,90,160));
+                        
+                        }
+
+.hidden_message_come{ padding:5px;
+                       font-size:12px;
+                       font-family:arial;
+                       background-color:rgb(180,40,60);
+                       border-radius:3px;
+                       margin-top:10px;
+                       display:none;
+                       color:white;
+}
+
+
+.upload_div{padding:5px;
+                       font-size:12px;
+                       font-family:arial;
+                       background-color:rgb(255,255,255);
+                       border-radius:3px;
+                       margin-top:10px;
+                       display:none;
+                       min-height:30px;
+                       color:black;
+                     }
+.load_img{height:30px;
+           float:left;
+           margin-left:5px;
+}
+
+.right_side_meassage_dear_one{float:left;
+                               margin-left:20px;
+                               margin-top:6px;
+                               color:rgb(80,80,80);
+                               font-size:12px;
+}
+
+
+.a_of_img{text-decoration:none;}
+
+
+.ul_of_jobs li{background-color:rgb(251,251,251);
+               padding:20px;
+               margin-top:20px;
+               border-radius:2px;
+               border:1px solid rgb(245,245,245);
+          
+
+}
+
+.ul_of_jobs p{color:rgb(120,120,120);}
+
+.ul_of_jobs b{color:rgb(130,130,130);}
+
+
+
+

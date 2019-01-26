@@ -1,0 +1,199 @@
+/*****************************************************************
+All the coy right of codes are with bunchup.inc 
+Copying any code or structure will be treated as voilation of rules 
+these codes are property of bunchup.inc and in no condition you can copy them
+
+
+
+*************************************************************************/
+
+.body{width:980px;
+     margin:0px auto;
+     padding-left:10px;
+     padding-right:10px;
+}
+
+/**************************** this is pop of file 
+
+**********************************/
+.photo_box_pop{width:700px;
+                 height:500px;
+                 border-radius:4px;
+                 box-shadow:0px 0px 10px 1px rgb(00,00,00);
+                 position:fixed;
+                 top:50%;
+                 left:50%;
+                 margin-top:-250px;
+                 margin-left:-350px;
+                 background:white;
+                 z-index:2;
+                 display:none;
+}
+
+.black{width:100%;
+    height:100%;
+    position:fixed;
+    background:rgba(0,0,0,0.5);
+    z-index:1;
+    display:none;
+}
+
+.top_of_photo_box{width:100%;
+                height:30px;
+                background-color:rgb(130,130,130);
+                background:linear-gradient(rgb(90,120,150) , rgb(70,100,130));
+                border-bottom:1px solid rgb(50,90,110);
+                border-radius:3px 3px 0px 0px;
+                text-align:center;
+                padding-top:10px;
+                color:rgb(255,255,255);
+                font-size:15px;
+}
+.close_photo_but{float:left;
+     position:absolute;
+                    width:17px;
+                    height:17px;
+                    background:rgb(100,190,255);
+                    background:linear-gradient(rgb(110,140,180) , rgb(60,70,90) );
+                    margin-left:5px;
+                    margin-top:-23px;
+                    border-radius:50px;
+                    background-repeat:no-repeat;
+
+                    background-position:50% 00%;
+}
+
+.close_photo_but:hover{float:left;
+                    position:absolute;
+                    width:17px;
+                    height:17px;
+                    background:rgb(110,140,180);
+                    background-image:url('../../../need/images/small/cross.png');
+                    box-shadow:inset 0px 0px 3px 1px rgb(60,70,90);
+                   margin-left:5px;
+                    margin-top:-23px;
+                    background-size:15px 15px;
+                    border-radius:50px;
+                    background-repeat:no-repeat;
+                    background-position:50% 00%;
+                    cursor:pointer;
+}
+
+/*********************************
+this is other 
+************************/
+
+.left_row{width:30%;
+                     float:left;
+                     margin-left:3%;
+}
+
+.head_of_row{width:100%;
+	        margin-left:0%;
+	         height:32px;
+	         margin-top:20px;
+	         background-color:rgb(0,120,160);
+	          background-color:rgb(20,90,140);
+	         border-radius:3px;
+	         text-align:center;
+	         font-size:160%;
+	         color:rgb(0,235,235);
+	         padding-top:8px;
+}
+
+.body_of_row{width:100%;
+	 margin-left:0%;
+      background-color:white;
+      border-radius:3px;
+      margin:0px auto;
+      margin-top:20px;
+}
+
+.content_of_body{padding:8px;
+                padding-top:0px;
+
+}
+
+
+.inputp{width:98%;}
+.inputp:hover{width:98%;}
+.inputp:focus{width:98%;}
+
+.urlselect{width:100%;
+       outline:none;
+       padding-top:1px;
+       margin-top:10px;}
+
+.urlselect b{float:left;
+            font-size:11px;
+            width:39%;
+            overflow:hidden;
+            padding-top:17px;
+            font-weight:normal;
+            margin-left:-1%;
+}
+
+.urlselect input{width:60%;
+}
+.urlselect input:hover{width:60%;
+}
+.urlselect input:focus{width:60%;
+}
+
+.default_user{width:60%;
+              margin-top:10px;
+              margin-left:20%;
+              opacity:0.8;
+              border-radius:2px;
+              box-shadow:0px 0px 4px 1px rgb(210,210,210);
+}
+
+
+.input_img{width:100%;
+           height:27px;
+           margin-top:20px;
+           outline:none;
+           text-align:center;
+}
+
+.or{width:100%;
+    height:20px;
+    margin-top:10px;
+    font-size:13px;
+    text-align:center;
+    font-weight:bold;
+}
+
+
+
+/**************************************
+this is to hide things and show 
+
+rub this ti make that back
+****************************************/
+
+.security_row{margin-left:35%;}
+.life_row{display:none;}
+.profile_row{display:none;margin-left:-30%;
+}
+
+.error_in_signup_box_on_top{width:100%;
+                  font-size:11px;
+                  color:white;
+                  letter-spacing:1px;
+                  border-radius:3px;
+                  background-color:rgb(170,70,70);
+                  margin-top:10px;
+                  padding:5px;
+                  text-align:center;
+}
+
+.message_of_error_in_signup{margin-top:10px;
+                  background-color:rgb(210,70,0);
+                  color:white;
+                  font-size:10px;
+                  padding:5px;
+                  border-radius:2px;
+                  display:none;
+}
+

@@ -1,0 +1,86 @@
+#top{width:100%;
+     height:40px;
+     background-color:rgb(40,70,130);
+     position:fixed;
+     z-index:2000000000000;
+
+}
+
+.middle_top{margin:0px auto;
+            height:40px;
+            width:1000px;
+            
+}
+
+
+.logo{width:110px;
+     margin-top:10px;
+     float:left;
+     border:0px;
+}
+
+
+.signin_box{float:right;
+            width:360px;
+            margin-right:10px;/*
+            background-color:rgb(40,70,130);
+            box-shadow:inset 0px 0px 6px 2px rgb(60,20,100);*/
+
+            height:40px;
+            color:white;
+}
+
+
+.input_of_top{width:120px;
+               margin-left:5px;
+              margin-top:7.5px;
+              height:25px;
+              border-radius:3px;
+              font-size:12px;
+              outline:none;
+              border:1px solid rgb(100,46,140);
+}
+
+.input_of_top:hover{border:1px solid rgb(60,20,100);
+                    box-shadow:0px 0px 6px 1px rgb(60,20,100);
+}
+
+.input_of_top:focus{border:1px solid rgb(60,20,100);
+                    box-shadow:0px 0px 3px 1px rgb(50,20,90);
+                }
+
+.next_remember_line{float:left;}
+
+.keep_sign_in{
+             padding-top:10px;
+             font-size:9px;
+             background-color:green;
+             height:7px;
+             color:rgb(140,140,140);
+}
+
+
+
+.left_side_of_top_bar{float:left;
+                      width:260px;
+                      height:40px;
+}
+
+
+
+.submit_of_top{float:right;
+               width:80px;
+               height:25px;
+               margin-right:10px;
+               margin-top:7.5px;
+               border-radius:3px;
+               border:0px;
+               color:white;
+               font-size:11px;
+                 background-color:rgb(50,80,130);
+        background:linear-gradient(rgb(80,130,170) , rgb(60,90,140));
+        border:1px solid rgb(20,40,60);
+}
+
+
+

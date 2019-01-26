@@ -1,0 +1,152 @@
+.left_row_of_setting{width:180px;
+                     float:left;
+                     
+}
+
+.right_row_of_setting{width:770px;
+                     padding-left:10px;
+                     float:right;
+                    
+                    
+}
+
+.body{padding-top:60px;}
+
+
+
+
+/* *************************************
+this is left side option 
+*********************************************/
+
+.option_row_of_this_page{
+                         border-radius:3px;
+                      
+}
+
+.body_of_setting_left_row{padding:5px;
+                     background-color:white;
+                     border-radius:0px 0px 3px 3px;
+}
+
+.body_of_setting_left_row a{text-decoration:none;}
+
+.menu_of_option_of_setting{height:19px;
+                           padding-left:62px;
+                           color:rgb(240,240,240);
+                           font-size:12px;
+                           margin-top:5px;
+                           padding-top:1px;
+                           color:rgb(0,140,170);
+
+                       }
+
+.menu_of_option_of_setting:hover{height:19px;
+                           padding-left:62px;
+                           font-size:12px;
+                           margin-top:5px;
+                           padding-top:1px;
+                          color:black;
+                           background-color:rgb(170,190,255);
+                           cursor:pointer;
+                       }
+.selected_menu_of_option_of_setting{height:19px;
+                          padding-left:62px;
+                           font-size:12px;
+                           margin-top:5px;
+                           padding-top:1px;
+                           color:black;
+                           background-color:rgb(170,190,255);
+                           cursor:pointer;
+                       }
+
+.heading_of_left_row_setting{height:24px;
+                            background-color:rgb(20, 90, 140);
+                            border-radius:3px 3px 0px 0px;
+                            color:rgb(230,230,230);
+                            text-align:center;
+                            font-size:12px;
+                            padding-top:6px;
+
+}
+
+
+/************************************8
+thsi is right side body
+**********************************************/
+
+.body_of_option_page{height:500px;
+                         border-radius:3px;
+                         background-color: white;
+                         background-image:url('../../../../need/images/small/load/1.gif');
+                         background-position:50% 50%;
+                         background-size:40px 40px;
+                         background-repeat:no-repeat;
+                         overflow:hidden;
+                     
+}
+
+#frame_of_setting{width:100%;
+                  border:0px;
+                  border-radius:3px;
+                  height:100%;
+                  overflow:none;
+                  padding:0px;
+                  margin:0px;
+ }
+
+/*********************************************
+this is to change that image of settings icon
+********************************************/
+
+#general{background-image:url("../../../signin_need/images/settings/general.png");
+         background-repeat:no-repeat;
+         background-position:42px 2px;
+         background-size:15px 15px;
+}
+
+#advance{background-image:url("../../../signin_need/images/settings/advance.png");
+         background-repeat:no-repeat;
+         background-position:42px 2px;
+         background-size:15px 15px;
+}
+
+#security{background-image:url("../../../signin_need/images/settings/security.png");
+         background-repeat:no-repeat;
+         background-position:42px 2px;
+         background-size:15px 15px;
+}
+
+#display{background-image:url("../../../signin_need/images/settings/display.png");
+         background-repeat:no-repeat;
+         background-position:42px 2px;
+         background-size:15px 15px;
+}
+
+#switch{background-image:url("../../../signin_need/images/settings/switch.png");
+         background-repeat:no-repeat;
+         background-position:42px 2px;
+         background-size:15px 15px;
+}
+
+#block{background-image:url("../../../signin_need/images/settings/blocking.png");
+         background-repeat:no-repeat;
+         background-position:42px 2px;
+         background-size:15px 15px;
+}
+
+#privacy{background-image:url("../../../signin_need/images/settings/views.png");
+         background-repeat:no-repeat;
+         background-position:42px 2px;
+         background-size:15px 15px;
+}
+
+
+
+
+
+
+
+
+
+

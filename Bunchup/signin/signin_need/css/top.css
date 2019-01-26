@@ -1,0 +1,597 @@
+#top{width:100%;
+     height:40px;
+     background-color:rgb(40,70,130);
+     position:fixed;
+     z-index:2000000000000;
+
+}
+
+
+
+
+/***************************************
+this is for the body
+**************************************/
+.body{width:980px;
+      padding:10px;
+      padding-top:60px;
+      margin:0px auto;
+}
+
+.middle_top{margin:0px auto;
+            height:40px;
+            width:1000px;
+            
+}
+
+
+.logo{width:110px;
+     margin-top:10px;
+     float:left;
+}
+
+.menu_bar{
+          height:40px;
+          float:left;
+          width:590px;
+          margin-left:30px;
+
+}
+
+.middle_of_upper_option_or_search{height:40px;
+                                  float:left;
+                                  width:350px;
+}
+
+.menu_bar a{
+           text-decoration:none;
+ }
+
+.option_of_menu_bar{text-align:center;
+                    padding:5px;
+                    padding-top:9px;
+                    padding-left:10px;
+                    padding-right:10px;
+                    height:26px;
+                    width:35px;
+                    font-size:11px;
+                    background-color:rgb(30,60,120);
+                    color:white;
+                    float:left;
+                    margin-left:5px;
+}
+
+.option_of_menu_bar:hover{text-align:center;
+                    padding:5px;
+                    padding-top:9px;
+                    padding-left:10px;
+                    padding-right:10px;
+                    height:26px;
+                    width:35px;
+                    font-size:11px;
+                    background-color:rgb(20,40,80);
+                    color:white;
+                    float:left;
+                    margin-left:5px;
+}
+
+
+.selected_option_of_menu_bar{text-align:center;
+                    padding:5px;
+                    padding-top:9px;
+                    padding-left:10px;
+                    padding-right:10px;
+                    height:26px;
+                    width:35px;
+                    font-size:11px;
+                    background-color:rgb(255,255,255);
+                    box-shadow:inset 0px 0px 5px 1px rgb(200,200,200);
+                    color:black;
+                    float:left;
+                    margin-left:5px;
+                  }
+
+.option_bar{
+          height:40px;
+          float:left;
+          width:260px;
+          margin-left:0px;
+
+}
+
+.slide_menu{width:350px;
+            height:400px;
+            background-color:white;
+            margin-left:-315px;
+            margin-top:40px;
+            border-radius:3px 0px 3px 3px;
+            box-shadow:0px 5px 4px 0px rgb(60,60,60);
+            box-shadow:0px 5px 4px 1px rgba(0,0,0,0.5);
+            overflow:hidden;
+            visibility:hidden;
+              
+        }
+
+.option_of_option_bar{width:30px;
+                      height:40px;
+                       background-color:rgb(20,40,80);
+                       float:right;
+                       margin-right:5px;
+                       padding-left:5px;
+                       padding-right:5px;
+                        background-repeat:no-repeat;
+                 background-position:50% 50%;
+                 background-size:15px 15px;
+                
+
+                 transition:margin-top 0.2s;
+                 webkit-transition:margin-top 0.2s;
+                 moz-transition:margin-top 0.2s;
+}
+
+.option_of_option_bar:hover{width:30px;
+                      height:40px;
+                      margin-top:10px;
+                       background-color:rgb(190,230,255);
+                       float:right;
+                       margin-right:5px;
+                       border-radius:3px 3px 0px 0px;
+                       padding-left:5px;
+                       padding-right:5px;
+                        background-repeat:no-repeat;
+                 background-position:50% 50%;
+                 background-size:20px 20px;
+                 
+                 box-shadow:0px -2px 3px 1px rgb(60,60,100);
+}
+
+.option_of_option_bar:hover > .slide_menu{visibility:visible;
+}
+
+.setting_option:hover > .slide_menu{width:140px;
+                                              height:77px;
+                                                margin-left:-115px;
+                                               background-color:rgb(255,255,255);
+                                           margin-top:40px;
+                                                border-radius:3px 0px 3px 3px;
+                                           box-shadow:0px 5px 4px rgb(80,80,130);
+                                                   overflow:hidden;
+                                                   padding:5px;
+                                                   padding-top:0px;
+                                                   padding-bottom:10px;
+                                                   
+}
+
+
+
+/*   this is to change the image        */
+.setting_option{background-image:url('../images/top/wrench_white.png');}
+.setting_option:hover{background-image:url('../images/top/wrench_black.png');background-color:white;}
+
+.notification_option{background-image:url('../images/top/notification_white.png')}
+.notification_option:hover{background-image:url('../images/top/notification_black.png')}
+
+.message_option{background-image:url('../images/top/ad_alert_white.png')}
+.message_option:hover{background-image:url('../images/top/ad_alert_black.png')}
+
+.bunch_option{background-image:url('../images/top/add_white.png')}
+.bunch_option:hover{background-image:url('../images/top/add.png')}
+
+
+/**************   above is ending  ****************************/
+
+
+.numver_in_bar{min-width:15px;
+              min-height:15px;
+               margin-right:-2px;
+               border-radius:50px;
+               background:rgb(190,80,30);
+               background:rgba(190,80,30,0.7);
+               box-shadow:0px 0px 1px 1px rgb(30,30,30); 
+               color:white;
+               float:right;
+               font-size:8px;
+               text-shadow:1px 1px 1px black;
+                text-align:center; 
+                padding-right:1px;
+            
+               margin-top:4px;}
+
+.menu_of_setting{margin-top:5px;
+                 margin-bottom:5px;
+                 text-align:center;
+                 color:rgb(90,90,90);
+                 height:20px;
+                 padding-top:2px;
+                 background-color:rgb(240,240,255);
+}
+
+.menu_of_setting:hover{margin-top:5px;
+                 margin-bottom:5px;
+                 text-align:center;
+                 color:rgb(230,230,230);
+                 height:20px;
+                 padding-top:2px;
+                 background-color:rgb(70,120,155);
+}
+
+
+.a_of_setting > a{text-decoration:none;
+}
+
+.menu_of_upper_option{width:240px;
+                      float:left;
+}
+
+
+
+
+
+
+
+
+
+/*        this is code for search bar */
+
+.input_for_search{
+                  height:26px;
+                  width:200px;
+                  
+                  border:0px;
+                  border-radius:2px 0px 0px 2px;
+                  outline:none;
+                  font-weight:18px;
+                  font-style:Consolas;
+                  float:left;
+}
+
+.search_button{float:right;
+               
+               height:28px;
+               width:26px;
+               border:0px;
+               border-radius:0px 2px 2px 0px;
+               background-color:rgb(130,190,255);
+               outline:none;
+               background-repeat:no-repeat;
+               background-position:50% 50%;
+               background-size:18px 18px;
+               background-image:url('../images/top/search-white.png');
+}
+
+.search_button:hover{float:right;
+               
+               height:28px;
+               width:26px;
+               border:0px;
+               border-radius:0px 2px 2px 0px;
+               background-color:rgb(100,160,225);
+               outline:none;
+               background-repeat:no-repeat;
+               background-position:50% 50%;
+               background-size:18px 18px;
+               background-image:url('../images/top/search-white.png');
+}
+
+.search_button:active{float:right;
+               
+               height:28px;
+               width:26px;
+               border:0px;
+               border-radius:0px 2px 2px 0px;
+               background-color:rgb(70,140,225);
+               outline:none;
+               background-repeat:no-repeat;
+               background-position:50% 50%;
+               background-size:18px 18px;
+               background-image:url('../images/top/search-white.png');
+}
+
+.display_of_search{width:180%;
+                   padding-bottom:10px;
+                   padding-top:5px;
+                   max-height:300px;
+                   overflow:hidden;
+                   overflow-y:auto;
+                   background-color:white;
+                   float:left;
+                   border-radius:0px 3px 3px 3px;
+                   box-shadow:0px 5px 4px rgb(40,40,40);
+                   display: none;
+}
+
+.search_div_of_upper{width:228px;
+                      height:28px;
+                      margin-left:20px;
+                      margin-top:6px;
+                      margin-bottom:6px;
+                      background-color:white;
+                      border-radius:2px;
+   }
+
+.div_of_img{text-align:center;
+            height:50px;
+            background-image:url('../../../need/images/small/load/1.gif');
+             background-repeat:no-repeat;
+             background-size:30px 30px;
+             background-position:50% 50%;
+}
+
+.load_img_search{width:40px;
+                 margin-top:10px;
+                 margin-bottom:10px;
+
+}
+
+
+.neck_of_search{width:100%;
+               height:20px;
+               background-color:white;
+               display:none;
+               float:left;
+               box-shadow:0px 5px 4px rgb(40,40,40);
+               text-align:center;
+               color:black;
+               font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************************************************8
+this is inside look of the search 
+*****************************************************************/
+
+.box_of_search{height:50px;
+               background-color:rgb(234,227,255);
+               background:linear-gradient(rgb(247,237,255) , rgb(230,220,240));
+               border:1px solid rgb(225,225,235);
+               margin-top:6px;
+                width:48%;
+                margin-left:1%;
+                float:left;
+                border-radius:3px;
+                font-family:arial;
+
+}
+.box_of_search:hover{background:linear-gradient(rgb(230,217,255) , rgb(210,190,230));
+               border:1px solid rgb(206,185,225);
+               /*box-shadow:0px 0px 3px 0px rgb(220,220,220);*/
+             }
+
+.box_of_search > a{text-decoration:none;
+                    color:rgb(80,80,80);
+                    font-size:15px;
+}
+.box_of_search > a:hover{text-decoration:underline;
+                    color:rgb(0,00,40);
+                    font-size:15px;
+}
+
+.left_box_of_img{float:left;
+                  height:46px;
+                  margin-top:2px;
+                  margin-left:2px;
+                  margin-right:5px;
+                  width:30%;
+                  overflow:hidden;
+                  border-radius:2px;
+                  outline:none;
+                  border:0px;
+}
+
+.img_of_a_seach_ppl{width:100%;
+                    min-height:100%;
+}
+
+.first_name_row{float:left;
+                width:63%;
+                margin-top:2px;
+                overflow:hidden;
+                padding-left:2%;
+                white-space:nowrap;
+                text-overflow:ellipsis;
+                color:rgb(50,50,50);
+                font-size:12px;
+                font-weight:bold;
+                text-transform:capitalize;
+
+}
+
+
+
+.mutual_friends_row{float:left;
+                width:60%;
+                margin-top:1px;
+                overflow:hidden;
+                white-space:nowrap;
+                text-overflow:ellipsis;
+                color:rgb(130,130,130);
+                font-size:11px;
+
+                padding-left:5%;
+                     
+}
+.box_of_search:hover > .mutual_friends_row{color:rgb(120,120,120);}
+
+
+
+
+
+
+
+
+
+.more_button_at_bottom{width:100%;
+                      height:35px;
+                      border-radius:0px 0px 3px 3px;
+                      background-color:rgb(220,220,220);
+                      background:linear-gradient(rgb(220,220,230) , rgb(190,190,190));
+                      border-top:1px solid rgb(190,190,190);
+                      margin-top:10px;
+                      float:left;
+                      margin-bottom:-10px;
+                      text-align:center;
+                      padding-top:15px;
+}
+
+.more_button_at_bottom a{color:rgb(0,0,0);
+                       text-decoration:none;
+}
+.more_button_at_bottom a:hover{color:rgb(0,0,0);
+                       text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+/********************************************************************************************************************
+this is for the slide menu inside lood that how it get change
+********************************************************************************************************************/
+
+.heading_of_slide_down_menu{height:30px;
+                         background-color:rgb(190,230,255);
+                         border-radius:3px 0px 0px 0px;
+                         border-bottom:1px solid rgb(170,210,240);
+text-align: center;
+color:rgb(100,100,100);
+font-size: 15px;
+padding-top: 10px;
+}
+
+.body_of_the_slide_down_menu{
+                             height:360px;
+                             border-radius:0px 0px 3px 3px;
+                             word-wrap:break-word;
+                             overflow:hidden;
+                             overflow-y:auto;
+
+}
+
+.row_of_one_friend_request_box{height:70px;
+                               background-color:rgb(240,240,250);
+                               box-shadow:inset 0px 0px 3px rgb(210,220,220);
+                               width:97%;
+                               margin-left:1.5%;
+                               margin-top:5px;
+                               border-radius:3px;
+}
+
+.left_side_for_of_row_for_img{float:left;
+                               width:21%;
+                               height:60px;
+                               margin-left:1.5%;
+                               margin-top:5px;
+                               overflow:hidden;
+                               border-radius:3px;
+                                  box-shadow:0px 0px 3px 1px rgb(210,220,220);
+
+}
+
+.left_side_for_of_row_for_img a{text-decoration:none;}
+
+.img_of_friend_request_user{width:100%;
+                            border-radius:3px;
+                            min-height:100%;
+}
+
+.right_side_for_of_row_of_request{float:right;
+                                   width:77.5%;
+                                   height:50px;
+                                   border-right:0px 3px 3px 0px;
+}
+
+.name_of_user_in_request_box{height:20px;
+                             text-transform:capitalize;
+                             font-size:14px;
+                             overflow:hidden;
+                             white-space:nowrap;
+                             text-overflow:ellipsis;
+                             margin-left:5px;
+                             margin-top:2px;
+}
+
+.name_of_user_in_request_box a{text-decoration:none;
+                               color:rgb(80,80,80);
+}
+
+
+.mutual_friends_row_request{height:15px;
+                             text-transform:capitalize;
+                             font-size:11px;
+                             overflow:hidden;
+                             white-space:nowrap;
+                             text-overflow:ellipsis;
+                             margin-left:7px;
+                             color:rgb(130,130,130);
+                             margin-top:-2px;
+                           }
+
+.accept_the_request{
+                    height:30px;
+
+}
+
+
+.button_of_request_in_slide_menu{float:right;
+                                margin-right:10px;
+                                border-radius:3px;
+                                background-color:rgb(40,70,175);
+                                border:1px solid rgb(100,140,190);
+                                background:linear-gradient(rgb(120,130,195) , rgb(40,70,175));
+                                border:1px solid rgb(20,50,150);
+                                color:white;
+                                outline:none;
+                                font-size:11px;
+                                overflow:hidden;
+                                white-space:nowrap;
+                                text-overflow:ellipsis;
+                                max-width:120px;
+                                padding-left:2px;
+                                padding-right:2px;
+                                padding-top:1px;
+                                height:19px;
+                                margin-top:5px;
+}
+
+.button_of_request_in_slide_menu:hover{
+                                background:rgb(30,60,160);
+                                border:1px solid rgb(100,140,190);
+                                 background:linear-gradient(rgb(100,110,175) , rgb(30,60,160));
+                                border:1px solid rgb(20,30,140);
+                                cursor:default;
+}
+ 
+
+
+
+
+
+
+
+
+
+

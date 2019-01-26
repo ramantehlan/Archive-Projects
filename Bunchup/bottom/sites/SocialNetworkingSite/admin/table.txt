@@ -1,0 +1,183 @@
+<script language="JavaScript" type="text/javascript" src="jquery.js"></script>
+        <script language="JavaScript" type="text/javascript" src="jTPS.js"></script>
+		<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="jTPS.css">
+
+        <script>
+
+                $(document).ready(function () {
+               
+                        $('#demoTable').jTPS( {perPages:[5,12,15,50,'ALL'],scrollStep:1,scrollDelay:30,
+                                clickCallback:function () {    
+                                        // target table selector
+                                        var table = '#demoTable';
+                                        // store pagination + sort in cookie
+                                        document.cookie = 'jTPS=sortasc:' + $(table + ' .sortableHeader').index($(table + ' .sortAsc')) + ',' +
+                                                'sortdesc:' + $(table + ' .sortableHeader').index($(table + ' .sortDesc')) + ',' +
+                                                'page:' + $(table + ' .pageSelector').index($(table + ' .hilightPageSelector')) + ';';
+                                }
+                        });
+
+                        // reinstate sort and pagination if cookie exists
+                        var cookies = document.cookie.split(';');
+                        for (var ci = 0, cie = cookies.length; ci < cie; ci++) {
+                                var cookie = cookies[ci].split('=');
+                                if (cookie[0] == 'jTPS') {
+                                        var commands = cookie[1].split(',');
+                                        for (var cm = 0, cme = commands.length; cm < cme; cm++) {
+                                                var command = commands[cm].split(':');
+                                                if (command[0] == 'sortasc' && parseInt(command[1]) >= 0) {
+                                                        $('#demoTable .sortableHeader:eq(' + parseInt(command[1]) + ')').click();
+                                                } else if (command[0] == 'sortdesc' && parseInt(command[1]) >= 0) {
+                                                        $('#demoTable .sortableHeader:eq(' + parseInt(command[1]) + ')').click().click();
+                                                } else if (command[0] == 'page' && parseInt(command[1]) >= 0) {
+                                                        $('#demoTable .pageSelector:eq(' + parseInt(command[1]) + ')').click();
+                                                }
+                                        }
+                                }
+                        }
+
+                        // bind mouseover for each tbody row and change cell (td) hover style
+                        $('#demoTable tbody tr:not(.stubCell)').bind('mouseover mouseout',
+                                function (e) {
+                                        // hilight the row
+                                        e.type == 'mouseover' ? $(this).children('td').addClass('hilightRow') : $(this).children('td').removeClass('hilightRow');
+                                }
+                        );
+
+                });
+
+
+        </script>
+        <style>
+                body {
+                        font-family: Tahoma;
+                        font-size: 9pt;
+                }
+                #demoTable thead th {										
+                        white-space: nowrap;
+                        overflow-x:hidden;
+                        padding: 3px;
+                }
+                #demoTable tbody td{
+												
+                        padding: 3px;
+                }
+        </style>
+
+
+
+
+
+
+--------------------------------------------------------------
+
+ <table id="demoTable" style="border: 1px solid #ccc; margin-left: -161px;" cellspacing="0" width="700" bgcolor="#FFFFFF">
+        <thead >
+                <tr>
+                        <th sort="description"><span class="style7">Program</span></th>
+                        <th sort="description"><span class="style7">Major</span></th>
+                        <th sort="beds"><span class="style7">Year</span></th>
+						<th sort="beds"><span class="style7">Section</span></th>
+						<th sort="beds"><span class="style7">Delete</span></th>
+				</tr>
+        </thead>
+        <tbody>
+	
+	
+		</tbody>
+	   
+	    <?php
+			include("db.php");
+			
+			$result=mysql_query("SELECT tloadtemp.tloadtempID, tloadtemp.major, tloadtemp.section, tloadtemp.year, program.programtitle FROM tloadtemp LEFT JOIN program ON tloadtemp.programId=program.programId ");
+				
+					
+			while($test = mysql_fetch_array($result))
+		{
+				$ids = $test['tloadtempID'];	
+				echo "<tr align='center'>";	
+				echo"<td><font color='black'>". $test['programtitle']. "</font></td>";
+				echo"<td><font color='black'>". $test['major']. "</font></td>";	
+				echo"<td><font color='black'>". $test['year']. "</font></td>";		
+				echo"<td><font color='black'>". $test['section']. "</font></td>";
+				echo"<td> <a href ='del_teacher_info_step2(code).php?tloadtempID=$ids'><center><img src='images/9.png'></center></a></td>";
+				
+				echo "</tr>";
+		}	
+	?>
+	   
+		
+		 </tbody>
+        <tfoot class="nav">
+                <tr>
+                        <td colspan=5 ><font color="#000000">
+                                <div class="pagination"></div>
+                                <div class="paginationTitle">Page</div>
+                                <div class="selectPerPage"></div>
+                                <div class="status"></div>
+								</font>
+                        </td>
+                </tr>
+				<tr>
+                        <td colspan=5 >
+						<form method="post">
+						<input type="submit" name="addtcourse" value="Click here to Proceed to next Step" class="btn" />
+							<?php
+								if (isset($_POST['addtcourse']))
+											{
+											include("db.php");
+											
+										$result=mysql_query("SELECT * FROM tloadtemp");			
+										while($test = mysql_fetch_array($result))
+										{
+												
+										$teacherid=$test['teacherid'];
+										$programId=$test['programId'];
+										$major=$test['major'];
+										$year=$test['year'];
+										$section=$test['section'];
+															
+																			
+									 mysql_query("INSERT INTO `tload`(teacherid,programId,major,year,section) 
+									 VALUES ('$teacherid','$programId','$major','$year','$section')"); 
+											}
+											mysql_query('TRUNCATE TABLE tloadtemp;')
+											or die(mysql_error());
+											
+											header("Location: add_teacher_info_step3.php");
+										}
+							?>
+						</form>
+                        </td>
+                </tr>
+				
+        </tfoot>
+		
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

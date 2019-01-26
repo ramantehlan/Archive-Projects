@@ -1,0 +1,32 @@
+/******************************
+these are code for smiles of bunchup 
+copyright are resereved
+***********************************/
+
+.smile_ui_base{padding:9px;
+               background-repeat:no-repeat;
+              background-size:18px 18px;
+                            background-position:0% 0%;
+              padding-top:0px;
+              padding-bottom:1px;
+               
+               margin-left:1px;
+               margin-right:1px;
+           }
+
+
+.Smile_faces_a{
+              background-image:url("../../images/small/smiles/Emotes-face-smile-icon.png");
+           
+ }
+
+ .Smile_faces_b{
+              background-image:url("../../images/small/smiles/Emotes-face-smile-big-icon.png");
+   }
+
+
+
+
+
+
+

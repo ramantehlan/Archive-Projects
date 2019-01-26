@@ -1,0 +1,26 @@
+.bottom_of_pages_have_bottom_info{float:left;
+                                  background-color:rgb(240,240,255);
+                                  border-radius:3px;
+                                  color:rgb(60,60,60);
+                                  margin-top:20px;
+                                  width:100%;
+}
+
+.body_of_bottom_p{padding:5px;
+                 font-size:11px;
+}
+
+.body_of_bottom_p a{color:rgb(130,130,130);
+                     text-decoration:none;
+                     margin-left:7px;
+}
+
+.body_of_bottom_p a:hover{color:rgb(60,60,60);
+                     text-decoration:underline;
+                     margin-left:7px;
+}
+
+
+
+
+

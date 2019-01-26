@@ -1,0 +1,23 @@
+-java script to check un wanted character like @#@#$#$%@#$% in like url , answer , id , name , pin 
+
+-check the sign up age not less then 13
+
+-check space in url or search or id or email or pin
+
+-only no in pin
+
+-max length of every item should be same
+
+-each item have name
+
+-use of < / b # in about or any field in settin
+
+
+-make mouse as progress when users file get proggress
+
+
+
+
+
+url is going blank if not filled 
+and loading img should be put if it is taking time

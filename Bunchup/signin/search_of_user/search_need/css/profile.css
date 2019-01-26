@@ -1,0 +1,325 @@
+html{margin:0px auto;
+	background-color:rgb(10,150,190);
+     background-attachment:fixed;
+     background-size:100%;
+     background-repeat:no-repeat;
+       font: 12px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+      color: rgb(61, 61, 61); 
+      margin-bottom:50px;
+}
+
+/*********************************************8888
+ this is top bar 
+**************/
+#top{width:100%;
+     height:40px;
+     background-color:rgb(40,70,130);
+     position:fixed;
+
+}
+
+
+
+
+/***************************************
+this is for the body
+**************************************/
+.body{width:980px;
+      padding:10px;
+      padding-top:60px;
+      margin:0px auto;
+}
+
+
+
+/**********************************8
+thsis  for the to img and middle bar of page 
+**********************************/
+.top_bar{width:97.5%;
+        padding:0.5%;
+        padding-right:2%;
+        float:left;
+        padding-bottom:10px;
+         background-color:white;
+         border-radius:3px;
+           min-height:140px;
+           box-shadow:0px 0px 4px rgb(90,90,90);
+}
+
+.profile_bar_of_top{width:15%;
+                    height:100%;
+                    float:left;
+                  border-radius:3px 3px 3px 3px;
+                    overflow:hidden;
+
+
+}
+       
+
+.user_profile_pic{width:100%;
+    border-radius:3px 3px 3px 3px;
+
+                  
+                     
+}
+
+.right_side_information{ 
+                           height:100%;  
+                           margin-left:16%;            
+}
+
+.name_of_user{font-size:19px;
+              color:black;
+              text-transform:capitalize;
+}
+
+.nick_name{margin-left:5px;
+          font-size:13px;
+          color:rgb(120,120,120);
+}
+.home_town{margin-left:2%;
+           color:rgb(70,70,70);
+           font-size:12px;
+            text-transform:capitalize;
+}
+.about{margin-left:2%;
+       font-size:12px;
+       color:rgb(100,100,100);
+       margin-top:2px;
+       padding:3px;
+       word-wrap:break-word;
+
+}
+.box_of_advance_info{
+                   width:100%;
+                   margin-top:5px;
+                   float:left;
+                 }
+
+.row_of_advance_box_info{width:100%;
+                           height:20px;
+
+                           margin-top:5px;
+ }
+
+ .block_of_row_of_advance_info{float:left;
+                               height:20px;
+                               background-color:rgb(220,240,255);
+                               border-radius:3px;
+                               box-shadow:inset 0px 0px 2px rgb(190,210,255);
+                               width:48%;
+                               margin-left:2%;
+                               margin-top:5px;
+
+ }
+
+  .block_of_row_of_advance_info:hover{background-color:rgb(210,230,245);
+                                       box-shadow:inset 0px 0px 2px rgb(190,210,255);
+     }
+
+  .block_of_row_of_advance_info:hover >  .title_of_block_of_row_of_advance_info{ background-color:rgb(190,210,235);
+                                                                                       color:rgb(60,60,60);   
+  }
+
+ .title_of_block_of_row_of_advance_info{float:left;
+                                          width:27%;
+                                          padding-top:1px;
+                                          background-color:rgb(210,230,245);
+                                          color:rgb(80,80,80);
+                                          height:19px;
+                                          padding-left:3%;
+                                          border-radius:3px 0px 0px 3px;
+ }
+
+ .value_of_block_of_row_of_advance_info{float:left;
+                                        padding-left:3%;
+                                        width:67%;
+                                        padding-top:1px;
+                                        height:19px;
+                                        border-radius:0px 3px 3px 0px;
+                                        color:rgb(140,140,140);
+                                        text-transform: capitalize;
+                                        overflow:hidden;
+                                        white-space:nowrap;
+                                        text-overflow:ellipsis;
+ }
+/*********************************************88
+this is after bar of the top bat
+***********************************************/
+
+.after_top_bar_other_bar{width:100%;
+        float:left;
+        margin-top:10px;
+         border-radius:4px;
+           min-height:40px;
+
+         }
+
+.left_side_of_other_bar{float:left;
+                        width:70%;
+                        height:40px;
+                         background-color:white;
+                        border-radius:3px 0px 0px 3px;
+                        
+}
+
+.right_side_of_other_bar{float:right;
+                           width:30%;
+                           height:40px;
+                           border-radius:0px 3px 3px 0px;
+                           background:rgb(140,190,255);
+                           background:rgba(0,120,195,0.7);
+                          /* border-left:1px solid rgb(120,160,230);*/
+} 
+
+.button_of_request_in_other_bar{float:left;
+                                margin-left:10px;
+                                border-radius:3px;
+                                background-color:rgb(40,70,175);
+                                border:1px solid rgb(100,140,190);
+                                background:linear-gradient(rgb(120,130,195) , rgb(40,70,175));
+                                border:1px solid rgb(20,50,150);
+                                color:white;
+                                outline:none;
+                                font-size:12px;
+                                overflow:hidden;
+                                padding-left:3px;
+                                padding-right:3px;
+                                padding-top:3px;
+                                white-space:nowrap;
+                                text-overflow:ellipsis;
+                                max-width:120px;
+                                height:22px;
+                                margin-top:8px;
+}
+
+.button_of_request_in_other_bar:hover{
+                                background:rgb(30,60,160);
+                                border:1px solid rgb(100,140,190);
+                                 background:linear-gradient(rgb(100,110,175) , rgb(30,60,160));
+                                border:1px solid rgb(20,30,140);
+                                cursor:default;
+                               
+}
+ 
+#grid_of_other_bar_for_option{
+  width:20px;
+  height:23px;
+  margin-left:7px;
+
+}
+
+.img_of_but{
+              width:13px;
+              height:13px;
+              margin-top:3px;
+              margin-left:4px;
+}
+
+
+
+.mutual_friends_row_in_profile_box{background-color:rgb(170,230,255);
+                                 border-radius:3px;
+                                  float:left;
+                                  width:98%;
+                                  margin-top:10px;
+                                  margin-left:2%;
+}
+
+
+.img_of_mutual_user_in_bar_profile{width:100%;
+                                    min-height:100%;
+                                    border-radius:3px;
+}
+
+
+.img_div_for_mutual_friend_box_in{width:60px;
+                                  height:50px;
+                                  overflow:hidden;
+                                  margin-left:10px;
+                                  float:left;
+                                  border-radius:3px;
+                                   outline:none;
+                                   border:0px;
+                                  margin-top:4px;
+                                  margin-bottom:4px;
+                                  opacity:1;
+}
+.img_div_for_mutual_friend_box_in:hover{opacity:1;
+                                        box-shadow:0px 0px 2px 0px rgb(0,0,0);
+}
+
+.at_end_of_line_of_mutual_friend_row{float:left;
+                                     margin-left:10px;
+                                     margin-top:14px;
+                                     margin-bottom:14px;
+                                     padding:5px;
+                                     background-color:rgb(120,170,230);
+                                     border-radius:3px;
+                                     font-size:13px;
+                                     color:rgb(230,230,230);
+}
+
+
+.option_of_left_side_of_other_bar_menu{float:left;
+                                        margin-left:10px;
+                                        width:80px;
+                                        height:24px;
+                                        margin-top:5px;
+
+                                        text-align:center;
+                                        padding-top:6px;
+                                        background-color:rgb(110,160,235);
+                                        font-size:12px;
+                                        color:white;
+}
+
+.option_of_left_side_of_other_bar_menu:hover{ border-radius:2px;
+                                        background-color:rgb(70,120,190);
+                                        box-shadow:inset 0px 0px 3px 1px rgb(0,60,150);
+                                        text-shadow:1px 1px 1px rgb(0,60,150);
+}
+
+.selected_option_of_left_side_of_other_bar_menu{float:left;
+                                        margin-left:10px;
+                                        width:80px;
+                                        height:24px;
+                                        margin-top:5px;
+                                         border-radius:2px;
+                                        text-align:center;
+                                        padding-top:6px;
+                                        background-color:rgb(70,120,190);
+                                        box-shadow:inset 0px 0px 3px 1px rgb(0,60,150);
+                                        text-shadow:1px 1px 1px rgb(0,60,150);
+                                        font-size:12px;
+                                        color:white;
+}
+
+.mutual_friends_row_in_profile_box a{text-decoration: none;}
+
+.left_side_of_other_bar a{text-decoration:none;outline:none;}
+
+.holder_of_above_wall{
+  float:left;
+  width:100%;
+}
+.body_of_wall{
+              width:100%;
+              margin-top:10px;
+              float:left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+/*****************************************************************
+All the coy right of codes are with bunchup.inc 
+Copying any code or structure will be treated as voilation of rules 
+these codes are property of bunchup.inc and in no condition you can copy them
+
+
+
+*************************************************************************/
+
+
+html{margin:0px auto;
+	background-color:rgb(10,150,190);
+     background-attachment:fixed;
+     background-size:100%;
+     background-repeat:no-repeat;
+       font: 12px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+      color: rgb(61, 61, 61); 
+      cursor: url(arrow.png);   
+      cursor: url(arrow.png),defalut;  
+       
+}
+
+body{margin:0px auto;
+     margin-bottom:20px;
+     margin-top:0px;
+}
+
+.body{width:980px;
+      padding-left:10px;
+      padding-bottom:10px;
+      padding-right:10px;
+      margin:0px auto;
+}
+
+
+::selection{background:rgba(0,0,70,0.8);
+        color:white;
+        text-shadow:1px 1px 1px black;
+}
+
+.shadow{
+        outline:none;
+}
+
+.input{width:100%;
+       height:27px;
+       border-radius:2px;
+       border:1px solid rgb(210,210,210);
+       outline:none;
+       margin-top:10px;
+}
+
+.input:hover{width:100%;
+       height:27px;
+       border-radius:2px;
+       border:1px solid rgb(160,160,160);
+       outline:none;
+       margin-top:10px;
+}
+
+.input:focus{width:100%;
+       height:27px;
+       border-radius:2px;
+       border:1px solid rgb(160,160,160);
+       box-shadow:inset 0px 0px 5px 1px rgb(190,190,190);
+       outline:none;
+       margin-top:10px;
+}
+
+.submit{width:100%;
+        height:30px;
+        margin-top:10px;
+        border-radius:2px;
+        background-color:rgb(80,140,180);
+        background:linear-gradient(rgb(100,160,200) , rgb(70,140,170));
+        border:1px solid rgb(70,120,160);
+        color:white;
+        outline:none;
+        cursor:pointer;
+}
+
+.submit:hover{width:100%;
+        height:30px;
+        margin-top:10px;
+        border-radius:2px;
+        background-color:rgb(80,140,180);
+        background:linear-gradient(rgb(80,140,170) , rgb(50,110,140));
+        border:1px solid rgb(70,120,160);
+        color:white;
+        outline:none;
+        cursor:pointer;
+}
+
+.submit:active{width:100%;
+        height:30px;
+        margin-top:10px;
+        border-radius:2px;
+        background-color:rgb(80,140,180);
+        background:linear-gradient(rgb(50,110,140) , rgb(20,80,100));
+        border:1px solid rgb(60,100,160);
+        color:white;
+        outline:none;
+        cursor:pointer;
+}
+
+.message_of_error{margin-top:10px;
+                  background-color:rgb(210,70,0);
+                  color:white;
+                  font-size:10px;
+                  padding:5px;
+                  border-radius:2px;
+                  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

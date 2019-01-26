@@ -1,0 +1,23 @@
+@font-face
+{
+	font-family:look;
+	src:url(fontd/BonvenoCF-Light.woff);
+}
+
+@font-face
+{
+	font-family:looka;
+	src:url(fontd/Archistico_Bold.woff);
+}
+
+@font-face
+{
+	font-family:lookb;
+	src:url(fontd/Action_Man_Bold.ttf);
+}
+
+@font-face
+{
+	font-family:lookc;
+	src:url(fontd/Familiar_Pro-Bold.otf);
+}

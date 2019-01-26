@@ -1,0 +1,32 @@
+
+.information_bar_of_the_user_right{float:right;
+                                  width:20%;
+                                  height:200px;
+                                     border-radius:3px;
+                                 box-shadow:0px 0px 3px rgb(0,0,0);
+}
+
+.question_div_of_wall_left_side{float:left;
+                                 width:78%;
+                                 height:200px;
+                                 background-color:white;
+                                 border-radius:3px;
+                                 box-shadow:0px 0px 3px rgb(0,0,0);
+}
+
+.heading_of_info_bar_w{border-radius:3px 3px 0px 0px;
+                       height:30px;
+                       background-color:rgb(20,70,130);
+                       text-align:center;
+}
+
+.body_of_info_div_w{border-radius:0px 0px 3px 3px;
+                   background-color:white;
+                   height:170px;
+}
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+html{ 
+       margin:0px;
+       font-size:15px;
+       background-attachment:fixed;
+       font-family:'lucida grande',tahoma,verdana,arial,sans-serif; 
+       background-image:url("images/lebron_james_wallpaper_hd_images_desktop1.jpg");
+       background-size:100%;
+       background-position:0% 30%;  
+}
+
+body{
+       margin:0px auto;
+       max-width:100%;
+       min-width:1000px;
+       
+}
+
+.top_bar{ position:fixed;
+          top:30px;
+          left:0%;
+          right:0%;
+          height: 50px;
+          width:100%;
+}
+
+.menu{float:left;
+      height:40px;
+      padding:5px;
+      background-color:#171123;
+      border-radius:3px;
+      margin-left:30px;
+     /* box-shadow:0px 0px 2px #0D060E;*/
+}
+
+
+.menu_option{text-align:center;
+             color:#FCDDBC;
+             text-decoration:none;  
+             float: left;
+             border-radius:3px;
+             line-height:28px;
+             height:30px;
+             margin:5px;
+             margin-left:7px;
+             margin-right:7px;
+             padding:0px;
+             padding-left:5px;
+             padding-right:5px;
+             font-family:eligible_sans;
+}
+
+.menu_option:hover{background-color:#414770}
+
+.selected_a{background-color:#414770}
+
+.site_name{ float:right;
+            margin-right:30px;
+            line-height:48px;
+            font-size:48px;
+            color:white;
+            height:40px;
+            font-family:gasalt;
+}
+
+.top_content{width:100%;
+                 padding-top:140px;
+}
+
+.top_content_box{width:650px;
+                 margin-left:700px;
+                 margin-right:80px; 
+                 float:right;
+                   /*background-color:rgba(21,50,67,0.5);*/
+                   color:white;
+                   border-radius:5px;
+                  padding:10px;
+}
+
+.top_content_box_heading{text-align:center;
+                          font-size:36px;
+                          font-family:theleague;
+}
+
+.top_content_box_data{font-family:Museo;
+                      margin-top:30px;
+                      font-size:17px;
+}
+
+#contactus_box{display:none;}
+
+.bottom{position:absolute;
+        bottom:0%;
+        height:30px;
+        width:98%;
+        background-color:rgb(0,0,0);
+        background-color:rgba(0,0,0,0.5);
+        color:white;
+        padding-left:2%;
+        line-height:30px;
+}
+
+
+::selection
+{
+           background-color : rgba(0,0,80,0.7);
+           color            : white;
+           text-shadow      : 1px 1px 1px black;
+}
+
+
+
+@font-face{
+  font-family:eligible_sans;
+  src:url("fonts/eligible_sans/EligibleSans-Regular.ttf");
+}
+
+@font-face{
+  font-family:gasalt;
+  src:url("fonts/gasalt/Gasalt-Regular.ttf");
+}
+
+
+
+@font-face{
+    font-family:theleague;
+    src:url("fonts/theleagueof-league-gothic-64c3ede/leaguegothic-regular-webfont.ttf");
+}
+
+@font-face{
+    font-family:Museo;
+    src:url("fonts/Museo Sans 500/MuseoSans_500.otf");
+}

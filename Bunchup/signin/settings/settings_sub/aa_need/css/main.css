@@ -1,0 +1,398 @@
+html{margin:0px auto;
+     background-attachment:fixed;
+     background-size:100%;
+     background-repeat:no-repeat;
+       font: 12px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+      color: rgb(61, 61, 61); 
+      cursor: url(arrow.png);   
+      cursor: url(arrow.png),defalut;  
+    
+      margin:10px;
+      background-color:white;
+
+}
+
+
+::selection{background:rgba(0,0,70,0.8);
+        color:white;
+        text-shadow:1px 1px 1px black;
+}
+
+h2{
+   font-family:arial;
+   font-family:Arial Rounded MT;
+   font-size:20px;
+   margin-top:10px;
+}
+
+.setting_box{width:100%;
+                    height:300px;
+                    font-size:12px;
+}
+
+.row_of_items_in_general{width:100%;
+                          height:25px;
+                          margin-top:2px;
+}
+
+.row_of_items_in_general:hover{cursor:pointer;}
+.row_of_items_in_general:hover >.title_of_row{ background-color:rgb(200,200,255);border-radius:2px 0px 0px 2px;}
+.row_of_items_in_general:hover >.value_of_row{background-color:rgb(243,243,255);border-radius:0px 2px 2px 0px;}
+
+.title_of_row{height:100%;
+              width:15%;
+              float:left;
+              font-size:12px;
+              background-color:rgb(240,240,255);
+              padding-left:2%;
+              color:rgb(0,0,0);
+              padding-top:3px;
+              margin-top:2px;
+              text-transform:capitalize;
+
+}
+
+.value_of_row{background-color:rgb(253,253,255);
+             height:100%;
+             padding-top:3px;
+             color:rgb(100,100,100);
+             float:right;
+             width:81%;
+             padding-left:2%;
+             margin-top:2px;
+             text-transform:capitalize;
+
+
+}
+.value_of_value_row{width:90%;
+                     float:left;
+             overflow:hidden;
+             white-space:nowrap;
+             text-overflow:ellipsis;
+             text-transform:capitalize;
+
+}
+/****************  there is only one case for this and that is at about **********/
+.value_of_value_row_about{
+  width:90%;
+                     float:left;
+                     word-wrap:break-word;
+                     overflow-y:auto;
+                     height:100%;
+                     text-transform:capitalize;
+
+}
+
+
+.box_of_option_for_setting{width:100%;
+                           height:35px;
+                           float:left;
+                           margin-top:2px;
+                          background-color:rgb(210,210,255);
+                          border-radius:2px;
+
+}
+
+.Edit_option{width:60px;
+              height:25px;
+              border-radius:3px;
+              background-color:rgb(120,180,220);
+              background:linear-gradient(rgb(110,170,210) , rgb(90,150,190));
+                border:1px solid rgb(80,140,180);
+                cursor:pointer;
+                color:white;
+                font-size:12px;
+                float:right;
+                margin-right:5px;
+                margin-top:5px;
+                outline:none;
+                text-decoration:none;
+                }
+
+.Edit_option:hover{width:60px;
+              height:25px;
+              border-radius:3px;
+              background-color:rgb(120,180,220);
+              background:linear-gradient(rgb(100,160,200) , rgb(70,130,170));
+                border:1px solid rgb(60,120,160);
+                cursor:pointer;
+                color:white;
+                font-size:12px;
+                float:right;
+                margin-right:5px;
+                margin-top:5px;
+                outline:none;
+                text-decoration:none;
+                }
+
+.Edit_option:active{width:60px;
+              height:25px;
+              border-radius:3px;
+              background-color:rgb(120,180,220);
+              background:linear-gradient(rgb(80,140,180) , rgb(50,110,150));
+                border:1px solid rgb(60,120,160);
+                cursor:pointer;
+                color:white;
+                font-size:12px;
+                float:right;
+                margin-right:5px;
+                margin-top:5px;
+                text-decoration:none;
+                outline:none;
+                }
+.box_of_option_for_setting a{text-decoration:none;
+
+}
+
+.input_of_general{width:95%;
+                  height:28px;
+                  margin-top:-3px;
+                  float:right;
+                  outline:none;
+                  border:1px solid rgb(230,230,230)
+}
+
+.input_of_general:hover{width:95%;
+                  height:28px;
+                  margin-top:-3px;
+                  float:right;
+                  outline:none;
+                  border:1px solid rgb(200,200,200);
+                border-radius:0px 2px 2px 0px;
+                }
+
+.input_of_general:focus{width:95%;
+                  height:28px;
+                  float:right;
+                  margin-top:-3px;
+                  outline:none;
+                  border:1px solid rgb(200,200,200);
+                  box-shadow:inset 0px 0px 4px 1px rgb(225,225,255);
+                  border-radius:0px 2px 2px 0px;
+}
+
+.checkbox_for_show{float:left;
+                     margin-left:1.5%;
+}
+
+.message_of_error{height:20px;
+                  margin-left:10px;
+                 float:left;
+                 font-size:11px;
+                 color:rgb(255,255,255);
+                 padding-left:10px;
+                 padding-right:10px;
+                 background-color:rgb(210,70,0);
+                 margin-top:5px;
+                 display:none;
+                 border-radius:2px;
+
+                 padding-top:3px;
+}
+
+.tick_of_show_not{background-image:url('../../../../../need/images/small/icon_tick_wrong.png');
+                    float:right;
+                    width:25px;
+                    height:25px;
+                    margin-top:-3px;
+                    margin-right:10px;
+                    background-position:50% 50%;
+                    background-size:80% 80%;
+                    background-repeat:no-repeat;
+}
+.tick_of_show_yes{background-image:url('../../../../../need/images/small/icon_tick.png');
+                    float:right;
+                    width:25px;
+                    height:25px;
+                    margin-top:-3px;
+                    margin-right:10px;
+                    background-position:50% 50%;
+                    background-size:80% 80%;
+                    background-repeat:no-repeat;
+                  }
+
+
+.img_of_example{width:15px;
+                float:left;
+               height:15px;
+               margin-right:;
+}
+
+.information_about_showing_information{float:left;
+                                       font-size:11px;
+                                       color:rgb(100,100,100);
+}
+
+.input_of_security{width:30%;
+                   height:100%;
+                   border-radius:3px;
+                   border:1px solid rgb(210,210,210);
+                   outline:none;
+                  
+}
+
+
+.input_of_security:hover{width:30%;
+                   height:100%;
+                   border-radius:3px;
+                   box-shadow:0px 0px 2px 2px rgb(230,230,230);
+                   border:1px solid rgb(180,180,180);
+                   outline:none;
+}
+
+.input_of_security:focus{width:30%;
+                   height:100%;
+                   border-radius:3px;
+
+                   box-shadow:inset 0px 0px 2px 2px rgb(230,230,230);
+                   border:1px solid rgb(180,180,180);
+                   outline:none;
+}
+
+.error_of_the_page{width:100%;
+                  font-size:11px;
+                  color:white;
+                  letter-spacing:1px;
+                  border-radius:3px;
+                  background-color:rgb(170,70,70);
+                  margin-top:-10px;
+                  padding:3px;
+                  text-align:center;
+                  margin-bottom:10px;
+                }
+/*************************************
+this is for the question 
+***************************************/
+
+.question{float:left;
+          position:absolute;
+          margin-top:-18px;
+          z-index:200;
+          width:20px;
+          margin-left:-15px;
+          height:20px;
+          background-image:url('../../../../../need/images/small/question-icons2.png');
+          background-size:18px 18px;
+          background-position:50% 50%;
+          background-repeat:no-repeat;
+}
+
+.message_of_question{width:200px;
+                     background-color:white;
+                      background-image:url('../../../../../need/images/small/question-icons2.png');
+          background-size:18px 18px;
+          background-repeat:no-repeat;
+          background-position:1px 1px; 
+          padding:5px;
+          visibility:hidden;
+          font-size:10px;
+          color:rgb(130,130,130);
+              border-radius:5px;
+              box-shadow:0px 0px 6px rgb(0,80,140);
+              padding:10px;
+              padding-top:22px;
+}
+
+.question:hover > .message_of_question{visibility:visible;}
+
+
+
+/***********************************************
+     display css 
+***********************************************/
+
+.bg_color_of_user_show{width:49%;
+                       height:20px;
+                       margin-right:1%;
+                       float:left;
+                       margin-top:-1px;
+                     
+                       border-radius:2px;
+}
+
+
+
+.display_pic_of_user{height:197px;
+                    border-radius:3px;
+}
+
+
+
+.or_in_choose{text-align:center;
+            font-weight:bold;
+            margin-top:3px;
+          width:100%;
+          float:left;
+          height:10px;
+            margin-bottom:8px;
+}
+
+.display_example_img{width:100px;
+                      height:60px;
+                      margin-top:10px;
+                      margin-left:10px;
+                      border:1px solid transparent;
+}
+
+
+
+/***************************************************
+security check 
+***************************************************/
+
+.div_of_form_in_security{width:200px;
+                         background-color:rgb(255,210,230);
+                         padding:5px;
+                         border-radius:2px;
+                         padding-top:0px;
+                         border:1px solid rgb(230,170,200);
+                          padding-bottom:10px;
+                          left:50%;
+                          position:absolute;
+                          margin-left:-100px;
+                          top:50%;
+                          margin-top:-165px;
+                          text-align:center;
+}
+
+
+.input_of_security_check{width:100%;
+                         height:30px;
+                         border-radius:3px;
+                         border:1px solid rgb(190,190,190);
+                         margin-top:10px;
+                         outline:none;
+}
+
+
+.input_of_button{margin-top:10px;
+                width:100%;
+                height:30px;
+                border-radius:3px;
+              background-color:rgb(120,180,220);
+              background:linear-gradient(rgb(110,170,210) , rgb(90,150,190));
+                border:1px solid rgb(80,140,180);
+                cursor:pointer;
+                color:white;
+                font-size:12px;
+                outline:none;
+                text-decoration:none;
+                }
+
+.input_of_button:hover{
+              background-color:rgb(120,180,220);
+              background:linear-gradient(rgb(100,160,200) , rgb(70,130,170));
+                border:1px solid rgb(60,120,160);
+              
+                }
+
+.input_of_button:active{
+              background-color:rgb(120,180,220);
+              background:linear-gradient(rgb(80,140,180) , rgb(50,110,150));
+                border:1px solid rgb(60,120,160);
+         
+                }
+
+
+
+
